@@ -15,8 +15,7 @@ const englandHolidays = {
       ],
       "days": {
         "01-01": {
-          "_name": "01-01",
-          "_style": "month-day"
+          "_name": "01-01"
         },
         "substitutes 01-01 if sunday then next monday": {
           "substitute": true,
@@ -26,9 +25,64 @@ const englandHolidays = {
           "substitute": true,
           "_name": "01-01"
         },
+        "easter -21": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
         "easter": {
           "_name": "easter"
         },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "1st monday in May": {
+          "name": {
+            "en": "Early May bank holiday"
+          },
+          "disable": [
+            "2020-05-04"
+          ]
+        },
+        "2020-05-08": {
+          "name": {
+            "en": "Early May bank holiday (VE day)"
+          }
+        },
+        "1st monday before 06-01": {
+          "name": {
+            "en": "Spring bank holiday"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if saturday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "2012-06-05": {
+          "name": {
+            "en": "Queen’s Diamond Jubilee"
+          }
+        }
       },
       "states": {
         "ALD": {

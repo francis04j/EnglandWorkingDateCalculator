@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "date-holidays-parser": "^3.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
   }
 }
